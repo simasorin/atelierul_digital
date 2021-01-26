@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">AndroidFundamentals2020</string>
+    <string name="app_name_recycler_view">AndroidFundamentals2020_RecyclerView</string>
+    <string name="orange_text">This is an orange TextView</string>
+    <string name="green_text">This is an green TextView</string>
+    <string name="blue_text">This is an blue TextView</string>
+    <string name="this_is_a_button">This is a button</string>
+    <string name="this_is_a_green_button">This is a green button</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="notify_me">Notify me</string>
+    <string name="auto_backup">Auto backup</string>
+    <string name="this_is_an_edit_text">This is an EditText</string>
+    <string name="this_is_a_new_edit_text">This is a new EditText</string>
+    <string name="hello_android_fundamentals_2020">Hello Android Fundamentals 2020!</string>
+
+    <string name="accept_terms"><![CDATA[I accept T&C]]></string>
+    <string name="submit">Submit</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="email_cannot_be_empty">Email address cannot be empty</string>
+    <string name="email_not_valid">Email address is not valid</string>
+    <string name="phone_cannot_be_empty">Phone address cannot be empty</string>
+    <string name="phone_not_valid">Phone number is not valid</string>
+    <string name="merry_little_christmas">Have yourself a merry Christmas,\nLet your heart be light\nFrom now on, our troubles will be out of sight</string>
+    <string name="let_it_snow">Let it snow</string>
+    <string name="jingles_bells">Jingles bells</string>
+    <string name="happy_holidays">Happy Holidays!</string>
+    <string name="from_ionut">From Ionut</string>
+    <string name="star_big">star big</string>
+
+    <string name="open_second_activity">Open second activity</string>
+    <string name="on_second_activity">We are on the second activity</string>
+
+    <string name="first_long_text">This is the first text block</string>
+    <string name="second_long_text">This is the second text block</string>
+    <string name="third_long_text">This is the third text block</string>
+    <string name="send">send</string>
+    <string name="write_message_here">Write message here</string>
+    <string name="message_received">Message received</string>
+
+    <string name="text_long_label" translatable="false">Long text %1$s:\n\n%2$s!</string>
+    <string name="lorem_ipsum" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non posuere risus. Vivamus vel vestibulum dui. In id nulla ultricies, tristique ante vitae, venenatis leo. Integer imperdiet enim varius, molestie nisl eu, ultrices massa. Maecenas at erat ut nunc pellentesque rutrum. Cras dapibus mi non bibendum maximus. Praesent at erat ac erat tristique lacinia nec eget mi. Curabitur congue, metus a feugiat vestibulum, diam dui tincidunt metus, a pharetra quam orci id urna. Fusce pretium nibh tortor, vitae scelerisque nunc fermentum id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In ac ante rutrum, blandit lorem quis, porttitor lectus.</string>
+    <string name="no_text_via_intent">No text received via Intent bundle!</string>
+    <string name="message">Message</string>
+    <string name="reply_received">Reply received</string>
+
+    <string name="hint_website">Enter website full url</string>
+    <string name="open_website">open website</string>
+    <string name="hint_location">Enter location name</string>
+    <string name="open_location">open location</string>
+    <string name="hint_share_text">Enter text to share</string>
+    <string name="share_text">share text</string>
+    <string name="hint_phone_number">Enter phone number</string>
+    <string name="call">call</string>
+    <string name="rationale_title">We need permission to make a phone call</string>
+    <string name="rationale_desc">In order to make a phone call we need you to allow the app the necessary permission. Without this permission this feature won\'t be available!</string>
+    <string name="menu_title_home">Home</string>
+    <string name="menu_title_about_us">About us</string>
+    <string name="menu_title_contact">Contact</string>
+    <string name="menu_group_title_communication">Communication</string>
+    <string name="menu_title_share">Share</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home">This is Home fragment</string>
+    <string name="contact">This is Contact fragment</string>
+    <string name="about_us">This is About Us fragment</string>
+    <string name="personal_email">ionut.negru@scoalainformala.ro</string>
+    <string name="minus_sign">-</string>
+    <string name="plus_sign">+</string>
+    <string name="show_date_picker">Show Date Picker</string>
+    <string name="date_selected_n">Date selected: %1$s</string>
+    <string name="title_activity_collapsing_toolbar">Scrolling Activity</string>
+    <string name="large_text" translatable="false">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="accessibility_open_email">open email</string>
+    <string name="now_playing_movies">Now Playing Movies</string>
+    <string name="upcoming_movies">Upcoming Movies</string>
+    <string name="top_rated_movies">Top Rated Movies</string>
+    <string name="choose_a_request">Choose a request and wait for it\'s result</string>
+    <string name="execute_all_requests">Execute All Requests</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.af2020">
+    <!-- Here we define all the permissions required by the application -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidFundamentals2020"
+        tools:ignore="AllowBackup">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".week2.ViewsActivity" />
+        <activity android:name=".week3.LoginActivity" />
+        <activity android:name=".week3.FrameLayoutActivity" />
+        <activity android:name=".week3.ScrollViewActivity" />
+        <activity android:name=".week4.ConstraintLayoutActivity" />
+        <activity
+            android:name=".week4.RecyclerViewActivity"
+            android:icon="@mipmap/ic_launcher_list"
+            android:label="@string/app_name_recycler_view" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".week5.LifecycleActivity" />
+        <activity android:name=".week5.SecondActivity" />
+        <activity android:name=".week5.ThreeButtonActivity" />
+        <activity
+            android:name=".week5.ChatOneActivity"
+            android:label="Chat One" />
+        <activity
+            android:name=".week5.ChatTwoActivity"
+            android:label="Chat Two" />
+        <activity android:name=".week5.ImplicitIntentActivity" />
+        <activity android:name=".week6.HelloFragmentActivity" />
+        <activity android:name=".week6.HelloFragmentDynamicActivity" />
+
+        <activity
+            android:name=".week6.NavigationDrawerActivity"
+            android:theme="@style/Theme.AndroidFundamentals2020.NoActionBar">
+
+        </activity>
+
+        <activity android:name=".week7.CardViewActivity" />
+        <activity android:name=".week7.BatteryActivity" />
+        <activity android:name=".week7.DatePickerActivity" />
+        <activity
+            android:name=".week7.CollapsingToolbarActivity"
+            android:label="@string/title_activity_collapsing_toolbar"
+            android:theme="@style/Theme.AndroidFundamentals2020.NoActionBar" />
+        <activity android:name=".week8.NetworkActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreenTheme">
+
+        </activity>
+    </application>
+
+</manifest>
